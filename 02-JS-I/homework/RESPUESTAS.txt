@@ -1,0 +1,15 @@
+Variables: Es una caja en la cual se guarda información para después poder usarse
+
+String: Es un hilo de caracteres por ejemplo "Hola, Mundo"
+
+Función: es una agrupación de código que luego se puede reutilizar, las funciones pueden tener argumentos. Estos argumentos son las variables que se van a tocar dentro de la misma. A su vez la función regresa un determinado valor. 
+
+Declaraciones If: La declaración "if" determina una condición en base a la cual va a pasar algo. Ejemplo: if(edad < 18) {
+console.log("No puede manejar")} -- En este caso si la variable edad fuese menor a 18 la consola imprime el mensaje "No puede manejar". Dentro de este mismo concepto tenemos la declaración
+"else" que básicamente nos indica qué hacer si la condición del "if" no se cumple. Ejemplo: 
+if(edad < 18) {
+console.log("No puede manejar")}
+else
+{console.log("Puede manejar")}
+
+Valores Booleanos: Los valores booleanos son declaraciones lógicas que nos dan como resultado "true" (verdadero) ó "false" (falso). Ejemplo 10 < 21 (true), 29 == 12 (false)
