@@ -1,0 +1,32 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+El "for" es una expresión de bucle que sirve para determinar que un código se repita a si mismo hasta que se cumpla una determinada condición. Ejemplo: 
+
+for(i = 0; i <= 100; i++){console.log(i)};
+Esto imprimirá los números del 1 al 100, una vez que llegue a 100 la confición  no se cumple más, entonces el código deja de ejecutarse. 
+
+esta expresión tiene una sintaxis particular ya que dentro del paréntesis lleva una "var" con un valor
+- var i = 0;
+una condición para esa variable
+- i <= 100; 
+y por último el método en que se incrementa dicha variable
+- i++ (en este caso el "++" JS lo interpreta como el valor en si mismo de la variable + 1).
+
+Los operadores lógicos sirven para combinar dos o más expresiones de igualdad y preguntar si ambas son verdaderas, una de ellas es verdadera, una es falsa, o ambas lo son. Para ello existen 3 operadores lógicos principales. 
+
+&& (AND) determina que es una condición es "true" (verdadera) si ambas expresiones lo son, basta con que una no lo sea para que la condición pase a ser "false" (falsa). Ejemplo:
+
+If(10 === 10 && 2>1){console.log("Esto es verdadero porque ambas expresiones lo son")};
+If(10 === 9 && 2>1){console.log("Esto es falso porque una de las expresiones lo es")}; 
+
+|| (OR) determina si la condición es "true" en el caso de que una de las dos expresiones lo sea. Ejemplo:
+
+If(10 === 9 || 2>1){console.log("Es verdadero porque una de las expresiones lo es")};
+If(10 === 9 || 2>2){console.log("Es falso por que ambas expresiones lo son")};
+
+! (NOT) es un operador lógico que sirve para preguntar lo opuesto de la expresión. Ejemplo: 
+
+If(!(10 === 9)){console.log("se imprime porque "!" indica lo contrario a la expresión.)};
