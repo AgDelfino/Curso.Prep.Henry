@@ -1,0 +1,25 @@
+un Array (arreglo) básicamente es una lista de datos, es decir una variable en la cuál podemos almacenar 
+todo tipo de datos (numéricos, booleanos, strings, otros arrays, functions, etc).
+Luego de esta manera podemos acceder a esos y obviamente utilizarlos para diversas cosas. 
+Entre las cosas principales a tener en cuenta sobre un Array es que para construir uno, se da el nombre del array y luego se le suman los "brackets" []; además los elementos dentro del mismo están "indexados a 0", 
+esto quiere decir que para acceder a los mismos, estos están ubicados en una posición específica que se cuenta partiendo desde el 0. EJEMPLO
+
+var arreglos [1, 2, 3, 4, 5]
+	   index  0  1  2  3  4
+
+Entonces cómo podemos acceder a un elemento dentro de un array? De varias maneras. La más simple es por su posición: 
+
+arreglos[0] //Esto nos devuelve el elemento 1 (que se encuentra ubicado en esa posición)
+
+Otro detalle importante acerca de los arrays es que los elementos dentro pueden ser utilizados. Ejemplo:
+
+arreglo[1] + 2
+// esto nos devolverá "4" ya que en este caso el elemento ubicado en la posición 1 es el número 2 + 2 = 4. 
+
+Por otra parte, como toda variable, las que conforman un array también se pueden sobre-escribir. Ejemplo
+
+arreglo[3] = 'Pablito'
+
+arreglo[]
+//Devolverá la siguiente lista [1, 2, 3, 'Pablito', 5]
+
