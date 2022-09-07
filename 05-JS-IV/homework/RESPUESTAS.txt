@@ -1,0 +1,18 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+* Un objeto (object), al igual que los arreglos (arrays) es una unidad de almacenamiento de tipos de datos. Mientras que los arrays nos permiten anidar distintos tipos de datos relacionados o no entre si, los objects nos permiten anidar muchos tipos de datos sobre una sola cosa. 
+
+* Las propiedades son básicamente las variables adjuntas al objeto.
+
+* Los métodos básicamente son las funciones dentro de los object.
+
+* El bucle 'for ... in' es el método que nos permite iterar entre los distintos key:values de un object. A diferencia de los arrays en los que datos están indexados de forma numérica, en los objects estos se indexan por lo que se conoce como key:values. La key (clave) es una cadena y el valor es el que se le asigna.
+
+* el Dot Notation nos permite llamar a las distintas key (claves) dentro de un object mediante el uso del ".". La principal ventaja de este método es que permite llamar de forma fácil la key específica. 
+  Por otra parte el método "brackets" (corchetes) es el mismo que usamos para llamar a los datos de un array, con la diferencia que en este caso usamos el nombre asignado al key puesto entre comillas. La principal ventaja de esta notación es que nos permite por ejemplo llamar una variable. 
